@@ -15,5 +15,6 @@ scacchi64.prg: src/chess.c src/main_c64.c src/gen6502.s src/chess.h src/font_wri
 clean:
 	rm -f scacchi64.prg
 	rm -rf build
+	rm -f src/*.o
 
 .PHONY: all clean
